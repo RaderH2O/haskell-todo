@@ -20,6 +20,7 @@ dispatch = [ ("add", add)
            , ("view", view)
            , ("remove", remove)
            , ("--help", help)
+           , ("-h", help)
            ]
 
 main :: IO ()
